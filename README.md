@@ -1,4 +1,4 @@
-# HashPool :miner:
+# HashPool 
 
 Efficient software for Miners and Pools
 
