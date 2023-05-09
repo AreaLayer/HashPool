@@ -9,5 +9,3 @@ The software helps miners and pool modify the key performance parameters of the 
 # Product
 
 Based on Mining Dev Kit
-
-Soon available
