@@ -2,6 +2,15 @@
 
 Efficient software for Miners and Pools
 
+
+<p align="center">
+  <a href="https://github.com/AreaLayer/HashPool" title="AreaLayer">
+    <img alt="HashPool" src="./src/assets/hashpool_logo_readme.png" width="150"></img>
+  </a>
+</p>
+
+<h3 align="center">FireBolt</h3>
+
 ⚠️ **Beta Software**
 
 ## About
