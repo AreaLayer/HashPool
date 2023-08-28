@@ -9,7 +9,7 @@ Efficient software for Miners and Pools
   </a>
 </p>
 
-<h3 align="center">FireBolt</h3>
+<h3 align="center">Hash Pool</h3>
 
 ⚠️ **Beta Software**
 
