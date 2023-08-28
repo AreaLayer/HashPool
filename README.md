@@ -24,6 +24,26 @@ In conclusion, the fusion of SDKs as Hash Pools has brought significant advancem
 
 ## Run library
 
+**Pre requesite**
+
+- Cargo
+- Rust Bitcoin
+- BDK
+
+### Add this Cargo.toml in your application
+
+```Cargo.toml
+[pcakage]
+
+name = "Hash Pool"
+version = "1.0.0"
+
+[package BDK]
+bdk = "0.28.2"
+
+[package rust bitcoin]
+rust-bitcoin = "0.13.0"
+```
 
 ## Roadmap
 
