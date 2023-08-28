@@ -2,6 +2,8 @@
 
 Efficient software for Miners and Pools
 
+⚠️ **Beta Software**
+
 ## About
 
 Bitcoin remains a frontrunner, and its underlying technology continues to fascinate enthusiasts and experts alike. One key aspect that drives the operation of the Bitcoin network is the concept of mining, a process crucial to its security and functionality.
@@ -19,6 +21,9 @@ In conclusion, the fusion of SDKs as Hash Pools has brought significant advancem
 - [`data`](https://github.com/AreaLayer/HashPool/tree/main/src/data) - section about Data on Bitcoin Network
 - [`mining`](https://github.com/AreaLayer/HashPool/tree/main/src/mining) - section about Mining involving Pool, PoW and SHA256
 - [`onchain`](https://github.com/AreaLayer/HashPool/tree/main/src/on-chain) - section about On-chain involving API, Block and Hash
+
+## Run library
+
 
 ## Roadmap
 
