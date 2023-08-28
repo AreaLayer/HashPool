@@ -16,9 +16,9 @@ In conclusion, the fusion of SDKs as Hash Pools has brought significant advancem
 
 ## Archecture
 
-- [`data`] - section about Data on Bitcoin Network
-- [`mining`] - section about Mining involving Pool, PoW and SHA256
-- [`onchain`] - sectio about On-chain involving API, Block and Hash
+- [`data`](https://github.com/AreaLayer/HashPool/tree/main/src/data) - section about Data on Bitcoin Network
+- [`mining`](https://github.com/AreaLayer/HashPool/tree/main/src/mining) - section about Mining involving Pool, PoW and SHA256
+- [`onchain`](https://github.com/AreaLayer/HashPool/tree/main/src/on-chain) - section about On-chain involving API, Block and Hash
 
 ## Roadmap
 
