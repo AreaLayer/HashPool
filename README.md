@@ -8,7 +8,6 @@ The software helps miners and pool modify the key performance parameters of the 
 
 ## Roadmap
 
-- [ ] API
-- [ ] Add LDK and BDK
+- [x] API
 - [ ] Release software
 - [ ] Open source
