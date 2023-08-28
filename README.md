@@ -9,5 +9,5 @@ The software helps miners and pool modify the key performance parameters of the 
 ## Roadmap
 
 - [x] API
-- [ ] Release software
+- [x] Release software
 - [ ] Open source
