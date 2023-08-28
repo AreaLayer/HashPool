@@ -1,40 +1,44 @@
-use bdk::bitcoin::Network;
-use bdk::database::MemoryDatabase;
-use bdk::keys::{DerivableKey, GeneratableKey, GeneratedKey, ExtendedKey, bip39::{Mnemonic, WordCount, Language}};
-use bdk::template::Bip84;
-use bdk::{miniscript, Wallet, KeychainKind};
+extern crate bitcoin;
+extern crate hex;
+
+use bitcoin::network::constants::Network;
+use bitcoin::BlockExplorer;
+use bitcoin::util::address::Address;
+use bitcoin::util::key::PrivateKey;
+use bitcoin::network::address::Address as NetAddress;
+use bitcoin::network::constants::Network::Testnet;
+use bitcoin::network::constants::Network::Bitcoin;
+use bitcoin::network::constants::Network::Regtest;
+use bitcoin::network::constants::Network::Signet;
+use std::str::FromStr;
 
 fn main() {
-    println!("Hello, world!");
+    // Define a transaction hash
+    let tx_hash_hex = "29cc75b63e75ec0db2067c3bcb21e95f258c02b967c3f79119a1dd5d8be1a318";
 
-    let network = Network::Testnet; // Or this can be Network::Bitcoin, Network::Signet or Network::Regtest
+    // Parse the transaction hash
+    let tx_hash_bytes = hex::decode(tx_hash_hex).expect("Failed to decode hex");
+    let tx_hash = bitcoin::BlockHash::from_slice(&tx_hash_bytes).expect("Invalid hash length");
 
-    // Generate fresh mnemonic
-    let mnemonic: GeneratedKey<_, miniscript::Segwitv0> = Mnemonic::generate((WordCount::Words12, Language::English)).unwrap();
-    // Convert mnemonic to string
-    let mnemonic_words = mnemonic.to_string();
-    // Parse a mnemonic
-    let mnemonic  = Mnemonic::parse(&mnemonic_words).unwrap();
-    // Generate the extended key
-    let xkey: ExtendedKey = mnemonic.into_extended_key().unwrap();
-    // Get xprv from the extended key
-    let xprv = xkey.into_xprv(network).unwrap();
+    // Fetch transaction data from a block explorer
+    let network = Network::Testnet; // Change to the desired network
+    let explorer = BlockExplorer::new(network);
+    let tx_data = explorer.transaction(&tx_hash).expect("Failed to fetch transaction data");
 
-    // Create a BDK wallet structure using BIP 84 descriptor ("m/84h/1h/0h/0" and "m/84h/1h/0h/1")
-    let wallet = Wallet::new_offline(
-        Bip84(xprv, KeychainKind::External),
-        Some(Bip84(xprv, KeychainKind::Internal)),
-        network,
-        MemoryDatabase::default(),
-    )
-    .unwrap();
-
-    println!("mnemonic: {}\n\nrecv desc (pub key): {:#?}\n\nchng desc (pub key): {:#?}",
-        mnemonic_words,
-        wallet.get_descriptor_for_keychain(KeychainKind::External).to_string(),
-        wallet.get_descriptor_for_keychain(KeychainKind::Internal).to_string());
+    // Display transaction data
+    println!("Transaction Hash: {}", tx_data.txid);
+    println!("Block Hash: {}", tx_data.block_hash);
+    println!("Confirmations: {}", tx_data.confirmations);
+    println!("Transaction Size: {} bytes", tx_data.size);
+    println!("Inputs:");
+    for input in tx_data.inputs {
+        println!("  {}", input.previous_output);
+    }
+    println!("Outputs:");
+    for output in tx_data.outputs {
+        println!("  {}", output);
+    }
 }
 
- 
 
  
