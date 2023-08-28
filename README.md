@@ -9,8 +9,6 @@ The software helps miners and pool modify the key performance parameters of the 
 ## Roadmap
 
 - [ ] API
-- [ ] Lightning Network
-- [ ] Add Marketplace Mempool
-- [ ] Add LDK, and BDK
+- [ ] Add LDK and BDK
 - [ ] Release software
 - [ ] Open source
