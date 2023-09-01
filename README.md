@@ -30,6 +30,12 @@ In conclusion, the fusion of SDKs as Hash Pools has brought significant advancem
 - Rust Bitcoin
 - BDK
 
+To build your SDJ application, navigate to the project directory in the terminal and run:
+
+```cargo
+cargo build
+```
+
 ### Add this Cargo.toml in your application
 
 ```Cargo.toml
