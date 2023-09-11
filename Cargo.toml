@@ -9,6 +9,8 @@ bdk = "0.28.2"
 [package rust bitcoin]
 rust-bitcoin = "0.13.0"
 
+[hash pool depedencies]
+
 [bdk dependencies]
 log = "0.4"
 rand = "^0.8"
