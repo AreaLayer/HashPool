@@ -50,7 +50,3 @@ bdk = "0.28.2"
 [package rust bitcoin]
 rust-bitcoin = "0.13.0"
 ```
-
-## Roadmap
-
-- [ ] Feedback dev and miner
