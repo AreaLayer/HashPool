@@ -2,6 +2,8 @@
 
 Efficient software for Miners and Pools
 
+**Contributions are welcome**
+
 ⚠️ **Beta Software**
 
 ## About
