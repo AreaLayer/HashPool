@@ -52,3 +52,9 @@ bdk = "0.28.2"
 [package rust bitcoin]
 rust-bitcoin = "0.13.0"
 ```
+
+## Roadmap
+
+- [ ] Add new features
+- [ ] Fix issues and bugs
+- [ ] Release out of beta
