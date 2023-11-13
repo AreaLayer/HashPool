@@ -32,7 +32,7 @@ In conclusion, the fusion of SDKs as Hash Pools has brought significant advancem
 - Rust Bitcoin
 - BDK
 
-To build your SDJ application, navigate to the project directory in the terminal and run:
+To build your SDK application, navigate to the project directory in the terminal and run:
 
 ```cargo
 cargo build
