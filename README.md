@@ -55,6 +55,8 @@ rust-bitcoin = "0.13.0"
 
 ## Roadmap
 
-- [ ] Add new features
+- [x] Add new features (WIP)
 - [ ] Fix issues and bugs
 - [ ] Release out of beta
+- [ ] Hardware support
+- [ ] Lightning support 
