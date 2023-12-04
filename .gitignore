@@ -1,7 +1,1 @@
-bitcoin.rs
-pool.rs
-pow.rs
-sha256.rs
-api.rs
-block.rs
-hash.rs
+/.Cargo.lock 
