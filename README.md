@@ -57,8 +57,9 @@ rust-bitcoin = "0.13.0"
 
 - [x] Add new features (WIP)
 - [ ] Clean docs
-- [ ] Stratum V2
+- [x] Stratum V2 (WIP)
+- [ ] BraidPool
 - [ ] Fix issues and bugs
-- [ ] Release out of beta
+- [ ] Release out of beta in 2024
 - [ ] Hardware support
 - [ ] Lightning support 
