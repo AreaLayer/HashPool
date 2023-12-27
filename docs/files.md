@@ -6,3 +6,4 @@
 - Mining
 - On-chain
 - StratrumV2
+- Braidpool
