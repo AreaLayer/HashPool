@@ -1,3 +1,3 @@
-## Hash Pool Releases 
+## Hash Pool Releases and Development
 
 TBD
