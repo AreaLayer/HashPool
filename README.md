@@ -1,10 +1,10 @@
-# Hash Pool ⚡🪙
+# Hash Pool ⚡
 
 Efficient software for Miners and Pools
 
 **Contributions are welcome**
 
-⚠️ **Beta Software**
+⚠️ **Beta Software and WIP**
 
 ## About
 
