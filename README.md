@@ -30,7 +30,7 @@ In conclusion, the fusion of SDKs as Hash Pools has brought significant advancem
 
 - Cargo
 - Rust Bitcoin
-- BDK
+- BDK                                         - LDK
 
 To build your SDK application, navigate to the project directory in the terminal and run:
 
