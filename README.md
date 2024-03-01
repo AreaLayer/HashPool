@@ -56,7 +56,7 @@ rust-bitcoin = "0.13.0"
 ## Roadmap
 
 - [x] Add new features (WIP)
-- [ ] Clean docs
+- [x] Clean docs
 - [x] Stratum V2 (WIP)
 - [ ] BraidPool
 - [ ] Fix issues and bugs
