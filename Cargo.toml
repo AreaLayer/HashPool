@@ -4,48 +4,8 @@ name = "Hash Pool"
 version = "1.0.5-beta"
 
 [package BDK]
-bdk = "1.0.0-alpha.6"
+bdk = "1.0.0-alpha.7"
 
 [package rust bitcoin]
 rust-bitcoin = "0.13.0"
-
-[hash pool depedencies]
-
-[bdk dependencies]
-log = "0.4"
-rand = "^0.8"
-bdk = "0.29.0"
-miniscript = { version = "10.0.0", features = ["serde"], default-features = false }
-bitcoin = { version = "0.30.0", features = ["serde", "base64", "rand-std"], default-features = false }
-serde = { version = "^1.0", features = ["derive"] }
-serde_json = { version = "^1.0" }
-bdk_chain = { path = "../chain", version = "0.5.0", features = ["miniscript", "serde"], default-features = false }
-
-bitcoin = { version = "0.30.0", default-features = false }
-serde_crate = { package = "serde", version = "1", optional = true, features = ["derive"] }
-
-# Use hashbrown as a feature flag to have HashSet and HashMap from it.
-# note version 0.13 breaks outs MSRV.
-hashbrown = { version = "0.11", optional = true, features = ["serde"] }
-
-[rust bitcoin]
-
-default = ["std"]
-std = ["alloc", "internals/std", "hex/std"]
-alloc = ["internals/alloc", "hex/alloc"]
-serde-std = ["serde/std"]
-# If you want I/O you must enable either "std" or "core2".
-core2 = ["actual-core2", "hex/core2"]
-# Smaller (but slower) implementation of sha256, sha512 and ripemd160
-small-hash = []
-
-internals = { package = "bitcoin-internals", version = "0.2.0" }
-hex = { package = "hex-conservative", version = "0.1.1", default-features = false }
-
-schemars = { version = "0.8.3", optional = true }
-# Only enable this if you explicitly do not want to use "std", otherwise enable "serde-std".
-serde = { version = "1.0", default-features = false, optional = true }
-
-# Do NOT use this feature! Use the "core2" feature instead.
-actual-core2 = { package = "core2", version = "0.3.2", default-features = false, optional = true }
 
