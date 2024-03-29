@@ -5,3 +5,4 @@
 - Mining
 - On-chain
 - Data
+- Stractum V2
