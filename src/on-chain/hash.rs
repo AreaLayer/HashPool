@@ -1,3 +1,6 @@
+use crate::Hash;
+
+
 extern crate bitcoin;
 extern crate bitcoin_hashes;
 
