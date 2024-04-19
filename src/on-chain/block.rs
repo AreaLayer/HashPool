@@ -1,3 +1,5 @@
+use crate::Block;
+
 extern crate bdk;
 extern crate bitcoin;
 extern crate bitcoin_hashes;
