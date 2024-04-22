@@ -47,7 +47,7 @@ name = "Hash Pool"
 version = "1.0.0"
 
 [package BDK]
-bdk = "0.28.2"
+bdk = "1.0.0-alha.9"
 
 [package rust bitcoin]
 rust-bitcoin = "0.13.0"
