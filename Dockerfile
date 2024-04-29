@@ -1,4 +1,4 @@
 $ Nostr
-RUN 
+RUN VERSION =
 $ DLC
-RUN
+RUN VERSION = 
