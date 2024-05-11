@@ -9,3 +9,5 @@ bdk = "1.0.0-alpha.11"
 [package rust bitcoin]
 rust-bitcoin = "0.13.0"
 
+[lightning]
+lighning = "0.0.123"
