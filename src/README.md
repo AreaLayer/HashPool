@@ -6,3 +6,4 @@
 - On-chain
 - Data
 - Stractum V2
+- Braidpool
