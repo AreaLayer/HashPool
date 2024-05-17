@@ -58,8 +58,7 @@ rust-bitcoin = "0.13.0"
 - [x] Add new features (WIP)
 - [x] Clean docs
 - [x] Stratum V2 (WIP)
-- [ ] BraidPool
-- [x] Fix issues and bugs
+- [x] BraidPool (WIP)
 - [ ] BOLT12
 - [ ] Release out of beta in 2024
 - [ ] Hardware support
