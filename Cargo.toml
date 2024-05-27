@@ -11,3 +11,6 @@ rust-bitcoin = "0.13.0"
 
 [lightning]
 lighning = "0.0.123"
+
+[dependencies]
+lihghtning = 
