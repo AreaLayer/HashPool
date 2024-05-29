@@ -63,6 +63,7 @@ rust-bitcoin = "0.13.0"
 - [ ] Release out of beta in 2024
 - [ ] Hardware support
 - [ ] Testnet4
+- [ ] Mutinynet
 - [ ] Lightning support
 - [ ] Add Cargo.lock
 - [ ] RBF
