@@ -1,4 +1,6 @@
 $ Nostr
-RUN VERSION =
-$ DLC
 RUN VERSION = 
+$ DLC
+RUN VERSION = 0.4.0
+$ Lightning
+RUN VERSION = 0.0.123
