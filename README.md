@@ -6,6 +6,8 @@ Efficient software for Miners and Pools
 
 ⚠️ **Beta Software and WIP**
 
+⚠️**Use small amount**
+
 ## About
 
 Bitcoin remains a frontrunner, and its underlying technology continues to fascinate enthusiasts and experts alike. One key aspect that drives the operation of the Bitcoin network is the concept of mining, a process crucial to its security and functionality.
