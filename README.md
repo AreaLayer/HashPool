@@ -1,4 +1,4 @@
-# Hash Pool ⚡
+# Hash Pool ⚡🔑
 
 Efficient software for Miners and Pools
 
