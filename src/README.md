@@ -1,7 +1,7 @@
 ## Modules
 
 - Asiic
-- Lightning
+- Lightning (basic)
 - Mining
 - On-chain
 - Data
