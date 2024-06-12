@@ -1,7 +1,7 @@
 [pcakage]
 
 name = "Hash Pool"
-version = "1.0.9-beta"
+version = "1.0.10-beta"
 
 [package BDK]
 bdk = "1.0.0-alpha.12"
