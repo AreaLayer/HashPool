@@ -1,5 +1,10 @@
 use crate::server::Server;
 
+use std::net::TcpListener;
+use std::sync::Arc;
+use std::thread;
+use std::time::Duration;
+
 pub struct Node {
     pub server: Server,
 }
@@ -23,6 +28,13 @@ impl Drop for Node {
         self.server.stop();
     }
 }
+
+impl local_node::LocalNode for Node {
+    fn start(&self) {
+        self.start();
+    }
+}
+
 
 #[cfg(test)]
 mod tests {
