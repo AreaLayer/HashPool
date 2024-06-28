@@ -1,3 +1,4 @@
+
 [pacakage]
 
 name = "Hash Pool"
@@ -10,3 +11,9 @@ version = "1.0.10-beta"
 bdk = "1.0.0-alpha.13"
 bitcoin = "0.32.0"
 lighning = "0.0.123"
+
+[workspace]
+members = [
+    "mining",
+    "on-chain",
+]
