@@ -7,7 +7,8 @@ documentation = "https://docs.rs/hashpool"
 edition = "2018"
 
 [dependencies]
-bdk = "1.0.0-alpha.13"
+
+bdk = "=1.0.0-alpha.11"
 bitcoin = "0.32.0"
 
 [lib]
