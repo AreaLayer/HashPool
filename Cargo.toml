@@ -12,3 +12,18 @@ bdk = "1.0.0-alpha.13"
 bitcoin = "0.32.0"
 lighning = "0.0.123"
 
+[lib]
+
+name = "mining"
+path = "src/mining/lib.rs"
+
+name = "on-chain"
+path = "src/on-chain/lib.rs"
+
+name "data"
+path = "src/data/lib.rs"
+
+[bin]
+
+name = "hashpoold"
+path = "bin/hashpoold.rs"
