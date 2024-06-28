@@ -1,6 +1,7 @@
 [package]
 name = "on-chain"
 version = "1.0.0"
+license = "MIT"
 authors = ["22388o"]
 description = "A simple library for on-chain operations"
 documentation = "https://docs.rs/hashpool"

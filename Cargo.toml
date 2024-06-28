@@ -3,6 +3,7 @@
 
 name = "Hash_Pool"
 author = "22388o"
+license = "MIT"
 description = "A simple library for Mining pools and developers"
 documentation = "https://docs.rs/hashpool"
 version = "1.0.10-beta"
@@ -11,7 +12,7 @@ version = "1.0.10-beta"
 
 bdk = "=1.0.0-alpha.11"
 bitcoin = "0.32.0"
-lighning = "0.0.123"
+lightning = "0.0.123"
 
 [lib]
 
