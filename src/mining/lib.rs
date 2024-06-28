@@ -17,7 +17,12 @@ use std::sync::atomic::{AtomicUsize, Ordering};
  impl Miner {
 
     pub fn new(id: usize, hash_power: usize) -> Self {
- impl Miner {
+ impl Miner::new(id: usize, hash_power: usize) -> Self {
+     Miner {
+         id,
+         hash_power,
+         hash_rate: AtomicUsize::new(0),
+         shares: Arc::new(HashMap::new()),
          difficulty: 1,
      }
     }
@@ -32,10 +37,9 @@ use std::sync::atomic::{AtomicUsize, Ordering};
 
         let mut hash = nonce;
  impl Miner {
-         self.hash_rate.store(hash_rate, Ordering::SeqCst);
+         self::hash_rate.store(hash_rate, Ordering::SeqCst);
               true
-
-         } else {
+            
            false
            false
          }
