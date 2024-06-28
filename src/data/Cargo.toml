@@ -8,3 +8,8 @@ edition = "2018"
 
 [dependencies]
 bitcoin = "0.32.0"
+
+[lib]
+
+name = "data"
+path = "src/data/lib.rs

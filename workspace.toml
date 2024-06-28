@@ -2,4 +2,6 @@
 members = [
     "mining",
     "on-chain",
+    "data",
+    "bin"
 ]

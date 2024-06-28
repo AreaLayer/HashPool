@@ -1,0 +1,9 @@
+[package]
+name = "hashpoold"
+version = "1.0.10-beta"
+edition = "2021"
+
+[dependencies]
+mining = { path = "../mining" }
+on-chain = { path = "../on-chain" }
+data = { path = "../data" }
