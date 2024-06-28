@@ -10,7 +10,7 @@ version = "1.0.10-beta"
 
 [dependencies]
 
-crypto = "0.5.1"
+crypto = { version = "0.5.1", features = ["digest"] }
 bdk = "=1.0.0-alpha.11"
 bitcoin = "0.32.0"
 lightning = "0.0.123"
