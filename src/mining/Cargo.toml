@@ -1,14 +1,11 @@
-
 [package]
-
-name = "Hash Pool"
-author = "22388o"
+name = "mining"
+version = "1.0.0"
+authors = ["22388o"]
 description = "A simple library for Mining pools and developers"
 documentation = "https://docs.rs/hashpool"
-version = "1.0.10-beta"
+edition = "2018"
 
 [dependencies]
 bdk = "1.0.0-alpha.13"
 bitcoin = "0.32.0"
-lighning = "0.0.123"
-

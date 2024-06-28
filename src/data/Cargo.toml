@@ -1,0 +1,10 @@
+[package]
+name = "data"
+version = "1.0.0"
+authors = ["22388o"]
+description = "A simple library for on-chain operations"
+documentation = "https://docs.rs/hashpool"
+edition = "2018"
+
+[dependencies]
+bitcoin = "0.32.0"
