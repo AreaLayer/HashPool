@@ -9,3 +9,4 @@ edition = "2018"
 [dependencies]
 bdk = "=1.0.0-alpha.11"
 bitcoin = "0.32.0"
+crypto = "0.5.1"
