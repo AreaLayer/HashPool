@@ -28,6 +28,11 @@ impl Miner {
     pub fn mine(&self, nonce: usize) -> bool {
         // Example placeholder implementation of mining logic
         let hash_result = nonce * self.hash_power;
+
+        // Convert hash_result from hexadecimal string to u64
+        let hash_as_u64 = u64::from_str_radix(&hash_result[..16], 16).unwrap_or(0);
+
+        // Check if hash_as_u64 is divisible by self.difficulty
         let success = hash_as_u64 % self.difficulty == 0;
     }
 }
