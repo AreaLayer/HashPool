@@ -1,4 +1,4 @@
-use extern crate  as crypto
+use extern crate  as crypto;
 
 use crypto::digest::Digest;
 use crypto::Sha256::Sha256;
