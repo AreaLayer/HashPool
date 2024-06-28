@@ -27,8 +27,8 @@ impl Miner {
 
     pub fn mine(&self, nonce: usize) -> bool {
         // Example placeholder implementation of mining logic
-        let hash_result = /* calculate hash based on nonce */;
-        let success = /* determine if mining was successful based on hash_result */;
+        let hash_result = nonce * self.hash_power;
+        let success = hash_result % self.difficulty == 0;
         success
     }
 }
