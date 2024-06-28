@@ -1,7 +1,7 @@
-extern crate crypto
+use extern crate crypto
 
 use crypto::digest::Digest;
-use crypto::sha2::Sha256;
+use crypto::Sha256::Sha256;
 
 use std::collections::HashMap;
 use std::sync::Arc;
