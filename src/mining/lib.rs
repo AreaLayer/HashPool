@@ -1,5 +1,5 @@
-use crypto::digest::Digest;
-use crypto::sha2::Sha256;
+extern use crypto::digest::Digest;
+extern use crypto::sha2::Sha256;
 
 use std::collections::HashMap;
 use std::sync::Arc;
