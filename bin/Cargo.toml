@@ -4,6 +4,6 @@ version = "1.0.10-beta"
 edition = "2021"
 
 [dependencies]
-mining = { path = "../mining" }
-on-chain = { path = "../on-chain" }
-data = { path = "../data" }
+mining = { path = "src/mining" }
+on-chain = { path = "src/on-chain" }
+data = { path = "src/data" }

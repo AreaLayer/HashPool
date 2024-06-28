@@ -17,7 +17,7 @@ lighning = "0.0.123"
 name = "mining"
 path = "src/mining/lib.rs"
 
-[bin]
+[[bin]]
 
 name = "hashpoold"
 path = "bin/hashpoold.rs"
