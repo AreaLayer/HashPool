@@ -1,7 +1,7 @@
 
 [package]
 
-name = "Hash Pool"
+name = "Hash_Pool"
 author = "22388o"
 description = "A simple library for Mining pools and developers"
 documentation = "https://docs.rs/hashpool"
