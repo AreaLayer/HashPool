@@ -1,1 +1,1 @@
-use crate::asic;
+use extern crate::asic;
