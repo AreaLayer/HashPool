@@ -6,7 +6,7 @@ use bdk::bitcoin::network::constants::Network;
 use bdk::bitcoin::util::address::Address;
 use bdk::bitcoin::util::key::PrivateKey;
 use bdk::Wallet;
-use bitcoin_hashes::sha256;
+use bitcoin_hashes::Sha256;
 use std::str::FromStr;
 
 fn main() {
