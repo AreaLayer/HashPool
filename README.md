@@ -62,7 +62,7 @@ rust-bitcoin = "0.13.0"
 - [x] Stratum V2 (WIP)
 - [x] BraidPool (WIP)
 - [x] BOLT11
-- [ ] BOLT12
+- [x] BOLT12
 - [ ] Hardware support
 - [ ] Testnet4
 - [ ] Mutinynet
