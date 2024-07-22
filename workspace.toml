@@ -3,6 +3,9 @@
 members = [
     "mining",
     "on-chain",
+    "lightning",
+    "asic",
+    "docs",
     "data",
     "bin"
 ]
