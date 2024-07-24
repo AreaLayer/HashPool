@@ -1,5 +1,8 @@
 # Hash Pool ⚡🔑
 
+[![Bitcoin-only](https://img.shields.io/badge/bitcoin-only-FF9900?logo=bitcoin)](https://twentyone.world)
+[![LN](https://img.shields.io/badge/lightning-792EE5?logo=lightning)](https://mempool.space/lightning)
+
 Efficient software for Miners and Pools
 
 **Contributions are welcome**
