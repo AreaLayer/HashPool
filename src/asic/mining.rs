@@ -10,3 +10,6 @@ impl asic::Asic {
     }
 }
 
+fn main() {
+    asic::run();
+}
