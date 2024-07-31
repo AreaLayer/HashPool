@@ -1,0 +1,7 @@
+/sysroot/home/rafael/Downloads/HashPool/target/debug/deps/libzerocopy_derive-83583a2bd32ff1cf.so: /sysroot/home/rafael/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-6f17d22bba15001f/zerocopy-derive-0.7.35/src/lib.rs /sysroot/home/rafael/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-6f17d22bba15001f/zerocopy-derive-0.7.35/src/ext.rs /sysroot/home/rafael/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-6f17d22bba15001f/zerocopy-derive-0.7.35/src/repr.rs
+
+/sysroot/home/rafael/Downloads/HashPool/target/debug/deps/zerocopy_derive-83583a2bd32ff1cf.d: /sysroot/home/rafael/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-6f17d22bba15001f/zerocopy-derive-0.7.35/src/lib.rs /sysroot/home/rafael/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-6f17d22bba15001f/zerocopy-derive-0.7.35/src/ext.rs /sysroot/home/rafael/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-6f17d22bba15001f/zerocopy-derive-0.7.35/src/repr.rs
+
+/sysroot/home/rafael/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-6f17d22bba15001f/zerocopy-derive-0.7.35/src/lib.rs:
+/sysroot/home/rafael/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-6f17d22bba15001f/zerocopy-derive-0.7.35/src/ext.rs:
+/sysroot/home/rafael/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-6f17d22bba15001f/zerocopy-derive-0.7.35/src/repr.rs:
