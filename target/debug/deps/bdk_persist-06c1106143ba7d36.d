@@ -1,0 +1,7 @@
+/sysroot/home/rafael/Downloads/HashPool/target/debug/deps/libbdk_persist-06c1106143ba7d36.rmeta: /sysroot/home/rafael/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-6f17d22bba15001f/bdk_persist-0.2.0/src/lib.rs /sysroot/home/rafael/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-6f17d22bba15001f/bdk_persist-0.2.0/src/persist.rs /sysroot/home/rafael/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-6f17d22bba15001f/bdk_persist-0.2.0/src/../README.md
+
+/sysroot/home/rafael/Downloads/HashPool/target/debug/deps/bdk_persist-06c1106143ba7d36.d: /sysroot/home/rafael/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-6f17d22bba15001f/bdk_persist-0.2.0/src/lib.rs /sysroot/home/rafael/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-6f17d22bba15001f/bdk_persist-0.2.0/src/persist.rs /sysroot/home/rafael/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-6f17d22bba15001f/bdk_persist-0.2.0/src/../README.md
+
+/sysroot/home/rafael/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-6f17d22bba15001f/bdk_persist-0.2.0/src/lib.rs:
+/sysroot/home/rafael/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-6f17d22bba15001f/bdk_persist-0.2.0/src/persist.rs:
+/sysroot/home/rafael/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-6f17d22bba15001f/bdk_persist-0.2.0/src/../README.md:
