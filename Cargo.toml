@@ -14,7 +14,6 @@ crypto = { version = "0.5.1", features = ["digest"] }
 bdk = "=1.0.0-alpha.11"
 bitcoin = "=0.32.2"
 lightning = "=0.0.123"
-rust = "=1.80.0"
 
 [lib]
 
