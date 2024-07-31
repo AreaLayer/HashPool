@@ -70,5 +70,5 @@ rust-bitcoin = "0.13.0"
 - [ ] Testnet4
 - [ ] Mutinynet
 - [ ] Lightning support
-- [ ] Add Cargo.lock
+- [x] Add Cargo.lock
 - [x] RBF
