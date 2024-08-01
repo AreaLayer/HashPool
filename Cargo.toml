@@ -6,7 +6,7 @@ author = "22388o"
 license = "MIT"
 description = "A simple library for Mining pools and developers"
 documentation = "https://docs.rs/hashpool"
-version = "1.0.11-beta"
+version = "1.0.12-beta"
 
 [dependencies]
 
