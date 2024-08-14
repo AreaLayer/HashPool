@@ -1,6 +1,6 @@
-extern use crate crypto::digest::Digest;
-extern use crate crypto::Sha256::Sha256;
-
+extern crate crypto;
+// Removed unused import
+// Removed unused importuse crypto::sha2::Sha256;
 use std::collections::HashMap;
 use std::sync::Arc;
 use std::sync::atomic::{AtomicUsize, Ordering};
@@ -30,6 +30,8 @@ impl Miner {
 
     pub fn mine(&self, nonce: usize) -> bool {
         // Example placeholder implementation of mining logic
+        use crypto::sha256::Sha256;
+        use crypto::digest::Digest;
         let mut hasher = Sha256::new();
         hasher.input(format!("{}", nonce).as_bytes());
         let hash_result = hasher.result_str();
