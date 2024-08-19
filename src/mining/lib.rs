@@ -31,7 +31,6 @@ impl Miner {
     pub fn mine(&self, nonce: usize) -> bool {
         // Example placeholder implementation of mining logic
         use crypto::sha256::Sha256;
-        use crypto::digest::Digest;
         let mut hasher = Sha256::new();
         hasher.input(format!("{}", nonce).as_bytes());
         let hash_result = hasher.result_str();
