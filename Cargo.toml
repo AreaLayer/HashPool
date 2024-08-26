@@ -12,6 +12,7 @@ version = "1.0.13-beta"
 
 crypto = { version = "0.5.1", features = ["digest"] }
 bdk = "=1.0.0-alpha.11"
+bdk_electrum = "0.17.0"
 bitcoin = "=0.32.2"
 lightning = "=0.0.123"
 
