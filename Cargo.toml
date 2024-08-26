@@ -15,6 +15,7 @@ bdk = "=1.0.0-alpha.11"
 bdk_electrum = "0.17.0"
 bitcoin = "=0.32.2"
 lightning = "=0.0.123"
+sha2 = "=0.10.8"
 
 [lib]
 

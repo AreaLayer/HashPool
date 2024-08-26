@@ -1,9 +1,11 @@
 extern crate crypto;
+extern crate sha2;
 // Removed unused import
-// Removed unused importuse crypto::sha2::Sha256;
 use std::collections::HashMap;
-use std::sync::Arc;
-use std::sync::atomic::{AtomicUsize, Ordering};
+use std::sync::{Arc, atomic::{AtomicUsize, Ordering}};
+
+use bdk_core::bitcoin::hashes::sha256;
+
 
 pub struct Miner {
     pub id: usize,
@@ -30,7 +32,7 @@ impl Miner {
 
     pub fn mine(&self, nonce: usize) -> bool {
         // Example placeholder implementation of mining logic
-        let mut hasher = Sha256::new();
+        let mut hasher = sha256::new();
         hasher.input(format!("{}", nonce).as_bytes());
         let hash_result = hasher.result_str();
 
