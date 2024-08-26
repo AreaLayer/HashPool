@@ -7,7 +7,7 @@ extern crate bitcoin_hashes;
 use bitcoin::blockdata::block::BlockHeader;
 use bitcoin::network::serialize::RawDecoder;
 use bitcoin::network::serialize::BitcoinHash;
-use bitcoin_hashes::sha256d;
+use bitcoin_hashes::Sha256d;
 use std::str::FromStr;
 
 fn main() {
