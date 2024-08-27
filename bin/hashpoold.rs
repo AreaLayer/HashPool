@@ -21,3 +21,4 @@ pub fn set_cache_value(cache: &Cache, key: &str, value: &str) {
     let mut guard = get_cache_guard(cache);
 
     guard.insert(key.to_string(), value.to_string());
+}

@@ -6,8 +6,6 @@ use std::collections::HashMap;
 use std::sync::{Arc, atomic::{AtomicUsize, Ordering}};
 
 
-use bdk_chain::bitcoin::blockdata::block::BlockHeader;
-
 
 pub struct Miner {
     pub id: usize,
