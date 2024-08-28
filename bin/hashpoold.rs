@@ -1,12 +1,24 @@
 use std::collections::HashMap;
-use std::sync::Arc;
-
-use std::collections::HashMap;
 use std::sync::{Arc, Mutex, MutexGuard};
 
-fn main () {
-    // Create a new cache.
-    let cache = new_cache();
+fn main() {
+    // Create a new cache using Arc and Mutex.
+    let cache = Arc::new(Mutex::new(HashMap::new()));
+
+    // Example usage
+    {
+        let mut cache_lock: MutexGuard<HashMap<String, String>> = cache.lock().unwrap();
+        cache_lock.insert("key".to_string(), "value".to_string());
+    }
+
+    {
+        let cache_lock: MutexGuard<HashMap<String, String>> = cache.lock().unwrap();
+        if let Some(value) = cache_lock.get("key") {
+            println!("Found value: {}", value);
+        } else {
+            println!("Key not found");
+        }
+    }
 }
 // Define the Cache type as an Arc (atomic reference counting pointer) 
 // around a Mutex-protected HashMap.
