@@ -20,7 +20,7 @@ sha2 = "=0.10.8"
 [lib]
 
 name = "mining"
-path = "src/mining/lib.rs"
+path = "src/lib.rs"
 
 [[bin]]
 
