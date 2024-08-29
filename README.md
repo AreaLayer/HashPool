@@ -47,15 +47,8 @@ cargo build
 
 ```Cargo.toml
 [pcakage]
-
 name = "Hash Pool"
 version = "1.0.0"
-
-[package BDK]
-bdk = "1.0.0-alpha.9"
-
-[package rust bitcoin]
-rust-bitcoin = "0.13.0"
 ```
 
 ## Roadmap
@@ -68,7 +61,7 @@ rust-bitcoin = "0.13.0"
 - [x] BOLT12
 - [ ] Hardware support
 - [ ] Testnet4
-- [ ] Mutinynet
-- [ ] Lightning support
+- [x] Lightning support
 - [x] Add Cargo.lock
 - [x] RBF
+- [ ] Crates
