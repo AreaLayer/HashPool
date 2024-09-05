@@ -1,6 +1,6 @@
 [package]
 name = "hashpoold"
-version = "1.0.10-beta"
+version = "1.0.15-beta"
 edition = "2021"
 
 [dependencies]
