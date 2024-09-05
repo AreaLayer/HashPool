@@ -49,7 +49,7 @@ cargo build
 ```Cargo.toml
 [pcakage]
 name = "Hash Pool"
-version = "1.0.0"
+version = "1.0.14-beta"
 ```
 
 ## Roadmap
@@ -62,7 +62,4 @@ version = "1.0.0"
 - [x] BOLT12
 - [ ] Hardware support
 - [ ] Testnet4
-- [x] Lightning support
-- [x] Add Cargo.lock
-- [x] RBF
 - [ ] Crates
