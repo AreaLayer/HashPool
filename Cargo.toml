@@ -6,6 +6,7 @@ author = "22388o"
 license = "MIT"
 description = "A simple library for Mining pools and developers"
 documentation = "https://docs.rs/hashpool"
+homepage = "https://www.arealayer.net/products"
 version = "1.0.14-beta"
 
 [dependencies]
@@ -23,6 +24,7 @@ ppv-lite86 = "0.2.20"
 name = "mining"
 path = "src/lib.rs"
 
+# Explicitly include everything needed in the published package
 [[bin]]
 
 name = "hashpoold"
