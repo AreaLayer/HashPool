@@ -7,7 +7,7 @@ use std::sync::{Arc, atomic::{AtomicUsize, Ordering}};
 
 
 
-pub struct Miner {
+pub (crate) struct Miner {
     pub id: usize,
     pub hash_power: usize,
     pub hash_rate: AtomicUsize,
@@ -26,11 +26,11 @@ impl Miner {
         }
     }
 
-    pub fn hash_rate(&self) -> u64 {
+    pub (crate) fn hash_rate(&self) -> u64 {
         self.hash_rate.load(Ordering::SeqCst) as u64
     }
 
-    pub fn mine(&self, nonce: usize) -> bool {
+    pub (crate) fn mine(&self, nonce: usize) -> bool {
         // Example placeholder implementation of mining logic
         use sha2::{Sha256, Digest};
         let mut hasher = Sha256::new();
