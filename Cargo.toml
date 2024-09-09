@@ -8,6 +8,7 @@ description = "A simple library for Mining pools and developers"
 documentation = "https://docs.rs/hashpool"
 homepage = "https://www.arealayer.net/products"
 version = "1.0.14-beta"
+edition = "2021"
 
 [dependencies]
 
