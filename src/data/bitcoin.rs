@@ -15,6 +15,7 @@ use std::str::FromStr;
 fn main() {
     // Define a transaction hash
     let tx_hash_hex = "29cc75b63e75ec0db2067c3bcb21e95f258c02b967c3f79119a1dd5d8be1a318";
+    println!("Transaction Hash: {}", tx_hash_hex);
 
     // Parse the transaction hash
     let tx_hash_bytes = hex::decode(tx_hash_hex).expect("Failed to decode hex");
