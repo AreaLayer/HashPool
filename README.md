@@ -3,8 +3,8 @@
 [![Bitcoin-only](https://img.shields.io/badge/bitcoin-only-FF9900?logo=bitcoin)](https://twentyone.world)
 [![LN](https://img.shields.io/badge/lightning-792EE5?logo=lightning)](https://mempool.space/lightning)
 [![Rust](https://github.com/AreaLayer/HashPool/actions/workflows/rust.yml/badge.svg)](https://github.com/AreaLayer/HashPool/actions/workflows/rust.yml)
-![Crates.io Total Downloads](https://img.shields.io/crates/d/hash-pool)
-[![crates.io](https://img.shields.io/crates/v/hash-pool)](https://crates.io/crates/hash-pool)
+![Crates.io Total Downloads](https://img.shields.io/crates/d/Hash_Pool)
+[![crates.io](https://img.shields.io/crates/v/Hash_Pool)](https://crates.io/crates/Hash_Pool)
 
 Efficient software for Miners and Pools
 
