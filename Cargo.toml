@@ -9,7 +9,6 @@ documentation = "https://docs.rs/hashpool"
 homepage = "https://www.arealayer.net/products"
 version = "1.0.14-beta"
 edition = "2021"
-include = ["bin/hashpoold.rs"]
 
 [dependencies]
 
