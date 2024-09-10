@@ -2,7 +2,7 @@
 [package]
 
 name = "Hash_Pool"
-author = "22388o"
+authors = ["AreaLayer"]
 license = "MIT"
 description = "A simple library for Mining pools and developers"
 documentation = "https://docs.rs/hashpool"
