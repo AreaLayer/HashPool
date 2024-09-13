@@ -119,9 +119,9 @@ dependencies = [
 
 [[package]]
 name = "bdk_electrum"
-version = "0.17.0"
+version = "0.17.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "111d37830e50f5722a372b1f621a81d6b5d4d70c226ea4e342aea0cc7b35c635"
+checksum = "b75c2d248509bc1344b4a5626632dd78154de758820acd1dfe03dbe832beefaa"
 dependencies = [
  "bdk_core",
  "electrum-client",
