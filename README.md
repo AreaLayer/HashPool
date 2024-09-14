@@ -5,6 +5,8 @@
 [![Rust](https://github.com/AreaLayer/HashPool/actions/workflows/rust.yml/badge.svg)](https://github.com/AreaLayer/HashPool/actions/workflows/rust.yml)
 ![Crates.io Total Downloads](https://img.shields.io/crates/d/Hash_Pool)
 [![crates.io](https://img.shields.io/crates/v/Hash_Pool)](https://crates.io/crates/Hash_Pool)
+[![Documentation](https://img.shields.io/static/v1?logo=read-the-docs&label=docs.rs&message=ddk&color=informational)](https://docs.rs/Hash_Pool/latest/mining/)
+
 
 Efficient software for Miners and Pools
 
