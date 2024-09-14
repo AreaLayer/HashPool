@@ -33,7 +33,7 @@ In conclusion, the fusion of SDKs as Hash Pools has brought significant advancem
 - [`data`](https://github.com/AreaLayer/HashPool/tree/main/src/data) - section about Data on Bitcoin Network
 - [`mining`](https://github.com/AreaLayer/HashPool/tree/main/src/mining) - section about Mining involving Pool, PoW and SHA256
 - [`onchain`](https://github.com/AreaLayer/HashPool/tree/main/src/on-chain) - section about On-chain involving API, Block and Hash
-- [`lightning'](https://github.com/AreaLayer/HashPool/tree/main/src/lightning) - section about Lightning Network with BOLT11 and BOLT12
+- [`lightning`](https://github.com/AreaLayer/HashPool/tree/main/src/lightning) - section about Lightning Network with BOLT11 and BOLT12
 - [`stratumv2`](https://github.com/AreaLayer/HashPool/tree/main/src/stratumv2) - section about Stratum V2 protocol
 - [`braidpool`](https://github.com/AreaLayer/HashPool/tree/main/src/braidpool) - section about BraidPool protocol
 - [ `asic` ](https://github.com/AreaLayer/HashPool/tree/main/src/asic) - section about ASIC mining and hardware
@@ -61,6 +61,7 @@ version = "1.0.14-beta"
 ## Official Documentation
 
 - [Documentation](https://docs.rs/Hash_Pool/1.0.14-beta/mining/struct.Miner.html)
+
 ## Roadmap
 
 - [x] Add new features (WIP)
