@@ -58,10 +58,6 @@ name = "Hash Pool"
 version = "1.0.14-beta"
 ```
 
-## Official Documentation
-
-- [Documentation](https://docs.rs/Hash_Pool/1.0.14-beta/mining/struct.Miner.html)
-
 ## Roadmap
 
 - [x] Add new features (WIP)
