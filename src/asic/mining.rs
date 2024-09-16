@@ -1,4 +1,4 @@
-use extern crate::asic;
+use crate::asic;
 
 fn main() {
     asic::run();
