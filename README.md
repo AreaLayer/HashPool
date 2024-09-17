@@ -60,12 +60,7 @@ version = "1.0.14-beta"
 
 ## Roadmap
 
-- [x] Add new features (WIP)
-- [x] Clean docs
 - [x] Stratum V2 (WIP)
 - [x] BraidPool (WIP)
-- [x] BOLT11
-- [x] BOLT12
 - [ ] Hardware support
 - [ ] Testnet4
-- [x] Crates
