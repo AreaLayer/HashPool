@@ -62,5 +62,5 @@ version = "1.0.15-beta"
 
 - [x] Stratum V2 (WIP)
 - [x] BraidPool (WIP)
-- [ ] Hardware support
+- [x] Hardware support
 - [ ] Testnet4
