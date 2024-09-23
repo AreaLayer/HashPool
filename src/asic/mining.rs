@@ -1,15 +1,6 @@
-use crate::asic;
+
+use crate::asic::Asic;
 
 fn main() {
-    asic::run();
-}
-
-impl asic::Asic {
-    fn run() {
-        println!("Hello, world!");
-    }
-}
-
-fn main() {
-    asic::run();
+    Asic::run();
 }
