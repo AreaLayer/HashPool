@@ -60,7 +60,7 @@ version = "1.0.15-beta"
 
 ## Roadmap
 
-- [x] Stratum V2 (WIP)
-- [x] BraidPool (WIP)
+- [x] Stratum V2 
+- [x] BraidPool 
 - [x] Hardware support
 - [ ] Testnet4
