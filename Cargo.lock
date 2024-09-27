@@ -8,7 +8,7 @@ version = "1.0.15-beta"
 dependencies = [
  "bdk",
  "bdk_electrum",
- "bitcoin 0.32.2",
+ "bitcoin 0.32.3",
  "crypto",
  "futures",
  "lightning",
@@ -155,7 +155,7 @@ version = "0.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "5c0b45300422611971b0bbe84b04d18e38e81a056a66860c9dd3434f6d0f5396"
 dependencies = [
- "bitcoin 0.32.2",
+ "bitcoin 0.32.3",
 ]
 
 [[package]]
@@ -237,9 +237,9 @@ dependencies = [
 
 [[package]]
 name = "bitcoin"
-version = "0.32.2"
+version = "0.32.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ea507acc1cd80fc084ace38544bbcf7ced7c2aa65b653b102de0ce718df668f6"
+checksum = "0032b0e8ead7074cda7fc4f034409607e3f03a6f71d66ade8a307f79b4d99e73"
 dependencies = [
  "base58ck",
  "bech32 0.11.0",
@@ -445,7 +445,7 @@ version = "0.21.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7a0bd443023f9f5c4b7153053721939accc7113cbdf810a024434eed454b3db1"
 dependencies = [
- "bitcoin 0.32.2",
+ "bitcoin 0.32.3",
  "byteorder",
  "libc",
  "log",
@@ -698,7 +698,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "5fa15a82fa2862935552fe647d1bf15745a6d759c0dca5a4b1e7b7e80cf24d58"
 dependencies = [
  "bech32 0.9.1",
- "bitcoin 0.32.2",
+ "bitcoin 0.32.3",
  "lightning-invoice",
  "lightning-types",
 ]
@@ -710,7 +710,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "90ab9f6ea77e20e3129235e62a2e6bd64ed932363df104e864ee65ccffb54a8f"
 dependencies = [
  "bech32 0.9.1",
- "bitcoin 0.32.2",
+ "bitcoin 0.32.3",
  "lightning-types",
 ]
 
@@ -721,7 +721,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "1083b8d9137000edf3bfcb1ff011c0d25e0cdd2feb98cc21d6765e64a494148f"
 dependencies = [
  "bech32 0.9.1",
- "bitcoin 0.32.2",
+ "bitcoin 0.32.3",
  "hex-conservative 0.2.1",
 ]
 
