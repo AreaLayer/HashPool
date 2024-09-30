@@ -57,3 +57,15 @@ impl Miner {
             }
         }
     }
+
+    pub mod braidpool {
+        pub struct BraidPool;
+        impl BraidPool {
+            pub fn run() {
+                println!("Running the BraidPool miner...");
+            }
+            pub fn new() -> Self {
+                BraidPool
+            }
+        }
+    }
