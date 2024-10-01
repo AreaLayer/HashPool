@@ -7,3 +7,8 @@ impl Asic {
         println!("Running the ASIC miner...");
     }
 }
+
+fn main() {
+    Asic::run();
+}
+
