@@ -47,7 +47,7 @@ impl Miner {
     }}
 
     pub mod asic {
-        pub mod mining;
+        pub mod asic;
 
         pub struct Asic;
     
