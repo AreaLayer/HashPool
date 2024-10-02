@@ -151,18 +151,18 @@ dependencies = [
 
 [[package]]
 name = "bdk_core"
-version = "0.2.0"
+version = "0.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5c0b45300422611971b0bbe84b04d18e38e81a056a66860c9dd3434f6d0f5396"
+checksum = "be5e187ee33d5f99f1997a700cc1dfa0524fd1de31e6414c612c9e89ccdaa133"
 dependencies = [
  "bitcoin 0.32.3",
 ]
 
 [[package]]
 name = "bdk_electrum"
-version = "0.18.0"
+version = "0.19.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d371f3684d55ab4fd741ac95840a9ba6e53a2654ad9edfbdb3c22f29fd48546f"
+checksum = "fee5560d6758855e5e0778bc3bc25648658684afac667321ddc0cba08aef933a"
 dependencies = [
  "bdk_core",
  "electrum-client",
