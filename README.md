@@ -55,11 +55,5 @@ cargo build
 ```Cargo.toml
 [pcakage]
 name = "Hash Pool"
-version = "1.0.15-beta"
+version = "1.0.16-beta"
 ```
-
-## Roadmap
-
-- [x] Stratum V2 
-- [x] BraidPool 
-- [x] Hardware support
