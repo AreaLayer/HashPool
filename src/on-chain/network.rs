@@ -12,6 +12,7 @@ fn main() {
         Network::Testnet,
         Network::Signet,
         Network::Regtest,
+        Network::Testnet4
     ];
 
     // Example: Print the genesis block for each network
