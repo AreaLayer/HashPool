@@ -17,7 +17,11 @@ fn main() {
 
     // Example: Print the genesis block for each network
     for network in networks {
+        genesis_block(network);
+        genesis_block(network::Testnet4);
+        genesis_hash = "00000000da84f2bafbbc53dee25a72ae507ff4914b867c565be350b0da8bf043";
         println!("{:?} Genesis Block: {:?}", network, genesis_block(network));
+
     }
 
     // Example: Generate a new Bitcoin address for each network
