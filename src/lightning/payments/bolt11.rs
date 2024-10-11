@@ -41,3 +41,4 @@ pub fn get_payment_hash(&self) -> Result<[u8; 32], Error> {
         let description_hash = self.invoice.description_hash()?;
         Ok(description_hash)
     }
+}

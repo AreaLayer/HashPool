@@ -22,27 +22,53 @@ pub fn invoice_to_bolt12(invoice: &Lightning_invoice) -> String {
     bolt12.push_str(&invoice.payment_secret.to_hex());
     bolt12.push_str(BOLT12_SEPARATOR);
     bolt12.push_str(&invoice.features.to_hex());
-
-impl bolt12_to_invoice(bolt12: &str) -> Result<Lightning_invoice, String> {
-    let mut split = bolt12.split(BOLT12_SEPARATOR);
-    let mut invoice = Lightning_invoice::new();
-    invoice.payment_hash = split.next().ok_or("Invalid bolt12 string
-    (missing payment_hash)")?.from_hex().map_err(|_| "Invalid bolt12 string
-    (invalid payment_hash)")?;
-    invoice.description = split.next().ok_or("Invalid bolt12 string
-    (missing description)")?.to_string();
-    invoice.expiry_time = split.next().ok_or("Invalid bolt12 string
-    (missing expiry_time)")?.parse::<u32>().map_err(|_| "Invalid bolt12 string
-    (invalid expiry_time)")?;
-    invoice.cltv_expiry = split.next().ok_or("Invalid bolt12 string
-    (missing cltv_expiry)")?.parse::<u32>().map_err(|_| "Invalid bolt12 string
-    (invalid cltv_expiry)")?;
-    invoice.payment_secret = split.next().ok_or("Invalid bolt12 string
-    (missing payment_secret)")?.from_hex().map_err(|_| "Invalid bolt12 string
-    (invalid payment_secret)")?;
-    invoice.features = split.next().ok_or("Invalid bolt12 string
-    (missing features)")?.from_hex().map_err(|_| "Invalid bolt12 string
-    (invalid features)")?;
-    Ok(invoice)
+    
+    impl bolt12_to_invoice(bolt12, &str) -> Result<LightningInvoice, String> {
+        let mut split = bolt12.split(BOLT12_SEPARATOR);
+        
+        let mut invoice = LightningInvoice::new();
+        
+        // Extract payment_hash
+        invoice.payment_hash = split
+            .next()
+            .ok_or_else(|| "Invalid bolt12 string: missing payment_hash".to_string())?
+            .from_hex()
+            .map_err(|_| "Invalid bolt12 string: invalid payment_hash".to_string())?;
+        
+        // Extract description
+        invoice.description = split
+            .next()
+            .ok_or_else(|| "Invalid bolt12 string: missing description".to_string())?
+            .to_string();
+        
+        // Extract expiry_time
+        invoice.expiry_time = split
+            .next()
+            .ok_or_else(|| "Invalid bolt12 string: missing expiry_time".to_string())?
+            .parse::<u32>()
+            .map_err(|_| "Invalid bolt12 string: invalid expiry_time".to_string())?;
+        
+        // Extract cltv_expiry
+        invoice.cltv_expiry = split
+            .next()
+            .ok_or_else(|| "Invalid bolt12 string: missing cltv_expiry".to_string())?
+            .parse::<u32>()
+            .map_err(|_| "Invalid bolt12 string: invalid cltv_expiry".to_string())?;
+        
+        // Extract payment_secret
+        invoice.payment_secret = split
+            .next()
+            .ok_or_else(|| "Invalid bolt12 string: missing payment_secret".to_string())?
+            .from_hex()
+            .map_err(|_| "Invalid bolt12 string: invalid payment_secret".to_string())?;
+        
+        // Extract features
+        invoice.features = split
+            .next()
+            .ok_or_else(|| "Invalid bolt12 string: missing features".to_string())?
+            .from_hex()
+            .map_err(|_| "Invalid bolt12 string: invalid features".to_string())?;
+        
+        Ok(invoice)
     }
-}
+    
