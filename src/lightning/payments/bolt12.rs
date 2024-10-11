@@ -23,7 +23,31 @@ pub fn invoice_to_bolt12(invoice: &Lightning_invoice) -> String {
     bolt12.push_str(BOLT12_SEPARATOR);
     bolt12.push_str(&invoice.features.to_hex());
     
-    impl bolt12_to_invoice(bolt12, &str) -> Result<LightningInvoice, String> {
+    const BOLT12_SEPARATOR: char = ':';
+
+    struct LightningInvoice {
+        payment_hash: Vec<u8>,
+        description: String,
+        expiry_time: u32,
+        cltv_expiry: u32,
+        payment_secret: Vec<u8>,
+        features: Vec<u8>,
+    }
+    
+    impl LightningInvoice {
+        fn new() -> Self {
+            LightningInvoice {
+                payment_hash: vec![],
+                description: String::new(),
+                expiry_time: 0,
+                cltv_expiry: 0,
+                payment_secret: vec![],
+                features: vec![],
+            }
+        }
+    }
+    
+    fn bolt12_to_invoice(bolt12: &str) -> Result<LightningInvoice, String> {
         let mut split = bolt12.split(BOLT12_SEPARATOR);
         
         let mut invoice = LightningInvoice::new();
@@ -72,3 +96,16 @@ pub fn invoice_to_bolt12(invoice: &Lightning_invoice) -> String {
         Ok(invoice)
     }
     
+    fn main() {
+        let bolt12 = "bolt12:1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef".to_string();
+        
+        match bolt12_to_invoice(&bolt12) {
+            Ok(invoice) => {
+                println!("Successfully created invoice: {:?}", invoice);
+            },
+            Err(e) => {
+                println!("Error parsing bolt12: {}", e);
+            }
+        }
+    }
+}
