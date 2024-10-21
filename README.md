@@ -57,3 +57,8 @@ cargo build
 name = "Hash Pool"
 version = "1.0.16-beta"
 ```
+
+## Roadmap
+
+- [ ] Bitaxe
+- [ ] Datum
