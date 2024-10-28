@@ -61,4 +61,4 @@ version = "1.0.16-beta"
 ## Roadmap
 
 - [ ] Bitaxe (basic)
-- [ ] Datum
+- [ ] Datum (basic template)
