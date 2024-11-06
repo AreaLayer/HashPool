@@ -67,3 +67,14 @@ impl Miner {
             }
         }
     }
+
+pub mod datum {
+    pub struct Datum;
+
+    impl Datum {
+        pub fn run() {
+            println!("Running the Datum miner...");
+        }
+        
+    }
+}
