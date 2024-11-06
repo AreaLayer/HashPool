@@ -66,6 +66,12 @@ impl Miner {
                 BraidPool
             }
         }
+
+impl Default for BraidPool {
+    fn default() -> Self {
+        BraidPool::new()
+    }
+}
     }
 
 pub mod datum {
