@@ -24,6 +24,7 @@ pub fn opcode_to_str(opcode: Opcode) -> &'static str {
         Opcode::OP_16 => "OP_16",
         Opcode::OP_NOP => "OP_NOP",
         Opcode::OP_IF => "OP_IF",
+        _ => "Unknown",
     }
 }
 
