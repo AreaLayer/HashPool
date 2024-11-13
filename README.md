@@ -55,10 +55,10 @@ cargo build
 ```Cargo.toml
 [pcakage]
 name = "Hash Pool"
-version = "1.0.16-beta"
+version = "1.0.17-beta"
 ```
 
 ## Roadmap
 
 - [ ] Bitaxe (basic)
-- [ ] Datum (basic template)
+- [x] Datum (basic template)
