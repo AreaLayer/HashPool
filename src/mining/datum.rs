@@ -15,3 +15,9 @@ pub (crate) fn hash(datum: &Datum) -> BlockHash {
 pub (crate) fn size(datum: &Datum) -> usize {
     datum.size()
 }
+
+pub struct DatumIterator {
+    datum: Datum,
+    index: usize,
+    txs: Vec<Transaction>,
+}
