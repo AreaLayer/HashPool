@@ -21,3 +21,11 @@ pub struct DatumIterator {
     index: usize,
     txs: Vec<Transaction>,
 }
+
+pub fn new(datum: Datum) -> DatumIterator {
+    DatumIterator {
+        datum,
+        index: 0,
+        txs: Vec::new(),
+    }
+}
