@@ -29,3 +29,13 @@ pub fn new(datum: Datum) -> DatumIterator {
         txs: Vec::new(),
     }
 }
+
+pub fn next(&mut self) -> Option<&Transaction> {
+    if self.index < self.datum.len() {
+        let tx = self.datum.get(self.index);
+        self.index += 1;
+        Some(tx)
+    } else {
+        None
+    }
+}
