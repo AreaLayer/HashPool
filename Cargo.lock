@@ -4,7 +4,7 @@ version = 4
 
 [[package]]
 name = "Hash_Pool"
-version = "1.0.18-beta"
+version = "1.0.19-beta"
 dependencies = [
  "bdk",
  "bdk_electrum",

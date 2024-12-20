@@ -7,7 +7,7 @@ license = "MIT"
 description = "A simple library for Mining pools and developers"
 documentation = "https://docs.rs/hashpool"
 homepage = "https://www.arealayer.net/projects"
-version = "1.0.18-beta"
+version = "1.0.19-beta"
 edition = "2021"
 
 [dependencies]

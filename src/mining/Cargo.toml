@@ -1,6 +1,6 @@
 [package]
 name = "mining"
-version = "1.0.0"
+version = "1.0.1"
 authors = ["22388o"]
 description = "A simple library for Mining pools and developers"
 documentation = "https://docs.rs/hashpool"
