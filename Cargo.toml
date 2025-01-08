@@ -13,7 +13,7 @@ edition = "2021"
 [dependencies]
 
 crypto = { version = "0.5.1", features = ["digest"] }
-bdk = "= 0.30.0"
+bdk = "= 0.30.1"
 bdk_electrum = "0.20.1"
 bitcoin = "=0.32.5"
 lightning = "=0.0.125"
