@@ -39,3 +39,12 @@ pub fn next(&mut self) -> Option<&Transaction> {
         None
     }
 }
+pub fn next_tx(&mut self) -> Option<&Transaction> {
+    if self.index < self.datum.len() {
+        let tx = self.datum.get(self.index);
+        self.index += 1;
+        Some(tx)
+    } else {
+        None
+    }
+}
