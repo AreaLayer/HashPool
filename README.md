@@ -60,6 +60,6 @@ version = "1.0.21-beta"
 
 ## Roadmap
 
-- [ ] Bitaxe (basic)
+- [x] Bitaxe (basic)
 - [ ] Post Quantum resistence
 - [x] Datum (basic template) [WIP]

@@ -29,3 +29,9 @@ pub fn get_transactions(&self) -> &Vec<Transaction> {
         &self.transactions
     }
 }
+
+impl Default for BitAxe {
+    fn default() -> Self {
+        Self::new()
+    }
+}
