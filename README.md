@@ -62,3 +62,4 @@ version = "1.0.21-beta"
 
 - [ ] Post Quantum resistence
 - [x] Datum (basic template) [WIP]
+- [ ] Bitaxe
