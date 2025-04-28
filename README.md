@@ -61,5 +61,4 @@ version = "1.0.22-beta"
 ## Roadmap
 
 - [ ] Post Quantum resistence
-- [x] Datum (basic template) [WIP]
 - [ ] Bitaxe
