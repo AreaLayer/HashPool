@@ -14,7 +14,7 @@ edition = "2021"
 
 crypto = { version = "0.5.1", features = ["digest"] }
 bdk = "= 0.30.2"
-bdk_electrum = "0.22.0"
+bdk_electrum = "0.23.0"
 bitcoin = "=0.32.6"
 lightning = "=0.1.4"
 sha2 = "=0.10.9"
