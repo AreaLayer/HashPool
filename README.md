@@ -55,7 +55,7 @@ cargo build
 ```Cargo.toml
 [pcakage]
 name = "Hash Pool"
-version = "1.0.22-beta"
+version = "1.0.23-beta"
 ```
 
 ## Roadmap
