@@ -31,7 +31,7 @@ In conclusion, the fusion of SDKs as Hash Pools has brought significant advancem
 ## Archecture
 
 - [`data`](https://github.com/AreaLayer/HashPool/tree/main/src/data) - section about Data on Bitcoin Network
-- [`mining`](https://github.com/AreaLayer/HashPool/tree/main/src/mining) - section about Mining involving Pool, PoW, SHA256 and Electrum
+- [`mining`](https://github.com/AreaLayer/HashPool/tree/main/src/mining) - section about Mining involving Pool, PoW, SHA256, Electrum and Bitaxe
 - [`onchain`](https://github.com/AreaLayer/HashPool/tree/main/src/on-chain) - section about On-chain involving API, Block and Hash
 - [`lightning`](https://github.com/AreaLayer/HashPool/tree/main/src/lightning) - section about Lightning Network with BOLT11 and BOLT12
 - [`stratumv2`](https://github.com/AreaLayer/HashPool/tree/main/src/stratumv2) - section about Stratum V2 protocol
@@ -61,4 +61,4 @@ version = "1.0.23-beta"
 ## Roadmap
 
 - [ ] Post Quantum resistence
-- [ ] Bitaxe
+- [x] Bitaxe
