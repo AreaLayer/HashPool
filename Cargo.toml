@@ -1,4 +1,3 @@
-
 [package]
 
 name = "Hash_Pool"
@@ -7,7 +6,7 @@ license = "MIT"
 description = "A simple library for Mining pools and developers"
 documentation = "https://docs.rs/hashpool"
 homepage = "https://www.arealayer.net/projects"
-version = "1.0.22-beta"
+version = "1.0.23-beta"
 edition = "2021"
 
 [dependencies]
