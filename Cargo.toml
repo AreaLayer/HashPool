@@ -16,7 +16,7 @@ crypto = { version = "0.5.1", features = ["digest"] }
 bdk = "= 0.30.2"
 bdk_electrum = "0.23.0"
 bitcoin = "=0.32.6"
-lightning = "=0.1.4"
+lightning = "=0.1.5"
 sha2 = "=0.10.9"
 ppv-lite86 = "0.2.20"
 tokio = { version = "1.46.0", features = ["full"] }
